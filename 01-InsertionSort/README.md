@@ -14,7 +14,7 @@
 
 Varolan bir diziyi (sıralı-sırasız) belli bir işlem adımları uygulayarak diziyi sıralama işlemidir. Küçük boyutlu dizilerde hızlı olsa da çok boyutlu dizilerde diğer sıralama algoritmalarına göre yavaş kalmaktadır. Bir azalt fethet algoritmasıdır. Sıralama yaparken değerleri tek tek kontrol ederek kıyaslama yapar ve sıraya koyar. 
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#i%CC%87%C3%A7indekiler)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
  ## Algoritma Nasıl Çalışır (Sözde Kod)
 
 1. İkinci indisi Al.
@@ -28,7 +28,7 @@ Varolan bir diziyi (sıralı-sırasız) belli bir işlem adımları uygulayarak 
 
 Yukarıdaki gibi işlemler devam eder. 
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#i%CC%87%C3%A7indekiler)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
 ## Örnek Kod
 
 İki örnek kod paylaşılmıştır. 
@@ -79,7 +79,7 @@ print(insertionSort(dizi,1))
 
 ![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/01-InsertionSort/codeOne.png?raw=true)
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#i%CC%87%C3%A7indekiler)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
 
  ## Örnek Algoritma İncelemesi
 
@@ -170,7 +170,7 @@ print(insertionSort(dizi,1))
 
 ![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/01-InsertionSort/Example.png?raw=true)
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#i%CC%87%C3%A7indekiler)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
 
 ## En İyi Durum ve En Kötü Durum 
 
@@ -178,7 +178,7 @@ print(insertionSort(dizi,1))
 
 **En kötü durum** ise dizinin **ters sıralı** olmasıdır. Karmaşıklığı O(n^2)
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#i%CC%87%C3%A7indekiler)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
 
 ## Karmaşıklık Hesabı
 
@@ -196,7 +196,7 @@ Sonuç n karedir. Bu durumda karmaşıklık: **O(n^2)**
 
 [![](https://img.youtube.com/vi/OGzPmgsI-pQ/maxresdefault.jpg)](https://youtu.be/OGzPmgsI-pQ)
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#i%CC%87%C3%A7indekiler)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
 
 ## Kaynakça
 
