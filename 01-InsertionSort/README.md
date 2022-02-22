@@ -2,11 +2,11 @@
 
 ## İçindekiler 
 - [Insertion Sort Nedir](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#insertion-sort-nedir)
-- Algoritma Nasıl Çalışır
-- Örnek Çalışma 
-- En İyi Durum ve En Kötü Durum
-- Karmaşıklık Hesabı 
-- Kaynakça
+- [Algoritma Nasıl Çalışır](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#algoritma-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-s%C3%B6zde-kod)
+- [Örnek Çalışma](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#%C3%B6rnek-%C3%A7al%C4%B1%C5%9Fma)
+- [En İyi Durum ve En Kötü Durum](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#en-i%CC%87yi-durum-ve-en-k%C3%B6t%C3%BC-durum)
+- [Karmaşıklık Hesabı](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#karma%C5%9F%C4%B1kl%C4%B1k-hesab%C4%B1) 
+- [Kaynakça](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#kaynak%C3%A7a)
 ---
 
  ## Insertion Sort Nedir?
@@ -137,6 +137,10 @@ Yukarıda dikatli bakıldığında 1 den n-1 sayısına kaadar olan sayıların 
 Sonuç n^2 karedir. Bu durumda karmaşıklık: **O(n^2)**
 
 https://youtu.be/OGzPmgsI-pQ
+
+
+[![](https://img.youtube.com/vi/OGzPmgsI-pQ/maxresdefault.jpg)](https://youtu.be/OGzPmgsI-pQ)
+
 
 ## Kaynakça
 
