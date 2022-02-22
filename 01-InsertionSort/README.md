@@ -3,7 +3,8 @@
 ## İçindekiler 
 - [Insertion Sort Nedir](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#insertion-sort-nedir)
 - [Algoritma Nasıl Çalışır](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#algoritma-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-s%C3%B6zde-kod)
-- [Örnek Çalışma](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#%C3%B6rnek-%C3%A7al%C4%B1%C5%9Fma)
+- Örnek Kod
+- [Örnek Algoritma İncelemesi](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#%C3%B6rnek-%C3%A7al%C4%B1%C5%9Fma)
 - [En İyi Durum ve En Kötü Durum](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#en-i%CC%87yi-durum-ve-en-k%C3%B6t%C3%BC-durum)
 - [Karmaşıklık Hesabı](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#karma%C5%9F%C4%B1kl%C4%B1k-hesab%C4%B1) 
 - [Kaynakça](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#kaynak%C3%A7a)
@@ -27,7 +28,56 @@ Varolan bir diziyi (sıralı-sırasız) belli bir işlem adımları uygulayarak 
 
 Yukarıdaki gibi işlemler devam eder. 
 
- ## Örnek Çalışma
+## Örnek Kod
+
+İki örnek kod paylaşılmıştır. 
+
+>code.py adlı dosyada for döngüleri ile çözüm sunulmuştur.
+
+>codeOne.py adlı dosyada yinelemeli fonksiyon ile çözüm sunulmuştur. 
+
+
+### Python Örnek Kod -1
+```python
+dizi=[89,45,68,90,29,34]
+boyut=len(dizi) #Dizinin boyutu öğreniliyor. 
+say=0
+print("\n\n%-20s"%("Düzensiz Dizi ->"), dizi,"\n","- "*50)
+for i in range(1, boyut): #dizinin 2 elemanından son değere kadar döngü kuruluyor
+    indis=i #Ele alınan değerin indisi tutuluyor.
+    anaDeger=dizi[indis] # Ele alınan değer tutuluyor
+    for j in range(i-1, -1,-1): # Dizinin ele alınan değerden bir önceki değer ile sıfırıncı indis arası döngü kuruluyor
+        if ( dizi[j]>anaDeger ): # karşılaştırma yapılıyor Büyük ise aşağıdaki kod çalışacak
+            dizi[j] , dizi[indis] =  dizi[indis] , dizi[j]  # dizi yer değiştirmeleri yapılıyor.
+            indis-=1; say+=1 # yer değiştirme sonucu indis değeri güncelleniyor ve adım için say değeri artırılıyor
+            print("%2d%-18s"%(say,". Adım"), dizi, "\t\t", anaDeger," ile ",dizi[indis+1], " yer değiştirdi.","\n","- "*50)
+            #Print ile dizi ekrana belli bir formatta yazdırılıyor. 
+        else:
+            break
+```
+
+### Python Örnek Kod -2
+
+```python
+dizi=[89,45,68,90,29,34]
+def insertionSort(dizi,indis):
+    if indis<len(dizi):
+        for i in range(indis-1,-1,-1):
+            if (dizi[i]>dizi[indis]):
+                dizi[i],dizi[indis]=dizi[indis], dizi[i]
+                indis-=1
+            else:
+                return insertionSort(dizi,indis+1)
+        return insertionSort(dizi,indis+1)
+    else:
+        return dizi
+print(insertionSort(dizi,1))
+```
+
+Örnek Kod 1 Çıktısı:
+
+![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/01-InsertionSort/codeOne.png?raw=true)
+ ## Örnek Algoritma İncelemesi
 
 
 * Elimizde aşağıdaki gibi bir dizi olduğunu düşünelim. 
