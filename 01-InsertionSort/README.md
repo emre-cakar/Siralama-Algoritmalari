@@ -145,3 +145,4 @@ https://youtu.be/OGzPmgsI-pQ
 ## Kaynakça
 
 * https://tr.wikipedia.org/wiki/Eklemeli_s%C4%B1ralama
+* https://www.geeksforgeeks.org/insertion-sort/
