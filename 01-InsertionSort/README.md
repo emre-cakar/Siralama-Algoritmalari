@@ -114,6 +114,8 @@ Yukarıdaki gibi işlemler devam eder.
 29 34 45 68 89 90
  ``` 
 
+![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/01-InsertionSort/Example.png?raw=true)
+
 ## En İyi Durum ve En Kötü Durum 
 
 **En iyi durum** dizinin **sıralı** olmasıdır.  Karmaşıklığı O(n-1)
@@ -133,3 +135,9 @@ Yukarıda dikatli bakıldığında 1 den n-1 sayısına kaadar olan sayıların 
 (n-1) * (n-2)/2 = (n^2 - 3n +2) / 2 
 
 Sonuç n^2 karedir. Bu durumda karmaşıklık: **O(n^2)**
+
+https://youtu.be/OGzPmgsI-pQ
+
+## Kaynakça
+
+* https://tr.wikipedia.org/wiki/Eklemeli_s%C4%B1ralama
