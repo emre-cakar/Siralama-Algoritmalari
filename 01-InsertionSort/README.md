@@ -134,10 +134,7 @@ Yukarıda dikatli bakıldığında 1 den n-1 sayısına kaadar olan sayıların 
 
 (n-1) * (n-2)/2 = (n^2 - 3n +2) / 2 
 
-Sonuç n^2 karedir. Bu durumda karmaşıklık: **O(n^2)**
-
-https://youtu.be/OGzPmgsI-pQ
-
+Sonuç n karedir. Bu durumda karmaşıklık: **O(n^2)**
 
 [![](https://img.youtube.com/vi/OGzPmgsI-pQ/maxresdefault.jpg)](https://youtu.be/OGzPmgsI-pQ)
 
