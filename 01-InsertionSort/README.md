@@ -1,9 +1,9 @@
 # INSERTİON SHORT (Eklemeli Sıralama) ALGORİTMASI
 
 ## İçindekiler 
-- Insertion Sort Nedir
+- [Insertion Sort Nedir](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#insertion-sort-nedir)
 - Algoritma Nasıl Çalışır
-- Örnek Çalışmayı 
+- Örnek Çalışma 
 - En İyi Durum ve En Kötü Durum
 - Karmaşıklık Hesabı 
 - Kaynakça
