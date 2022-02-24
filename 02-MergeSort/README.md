@@ -66,7 +66,7 @@ print("Sıralı Dizi  : \t\t",dizi)
 
 Örnek Kod 1 Çıktısı:
 
-![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/01-MergeSort/code.png?raw=true)
+![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/02-MergeSort/code.png)
 
 [İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 
@@ -155,7 +155,7 @@ print("Sıralı Dizi  : \t\t",dizi)
 29 34 45 68 89 90
  ``` 
 
-![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/01-InsertionSort/Example.png?raw=true)
+![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/02-MergeSort/example.png)
 
 [İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 
@@ -175,7 +175,7 @@ Sonuç n karedir. Bu durumda karmaşıklık: **O(nlogn)**
 
 [![](https://img.youtube.com/vi/Sx1VfR7EvnA/maxresdefault.jpg)](https://youtu.be/Sx1VfR7EvnA)
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 
 ## Kaynakça
 
@@ -185,4 +185,4 @@ Sonuç n karedir. Bu durumda karmaşıklık: **O(nlogn)**
 * https://www.programiz.com/dsa/merge-sort
 
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
