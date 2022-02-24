@@ -1,20 +1,20 @@
 # MERGE SHORT (Birleştirmeli Sıralama) ALGORİTMASI
 
 ## İçindekiler 
-- [Merge Sort Nedir](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#insertion-sort-nedir)
-- [Algoritma Nasıl Çalışır](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#algoritma-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-s%C3%B6zde-kod)
-- [Örnek Kod](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#%C3%B6rnek-kod)
-- [Örnek Algoritma İncelemesi](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#%C3%B6rnek-algoritma-i%CC%87ncelemesi)
-- [En İyi Durum ve En Kötü Durum](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#en-i%CC%87yi-durum-ve-en-k%C3%B6t%C3%BC-durum)
-- [Karmaşıklık Hesabı](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#karma%C5%9F%C4%B1kl%C4%B1k-hesab%C4%B1) 
-- [Kaynakça](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#kaynak%C3%A7a)
+- [Merge Sort Nedir](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-sort-nedir)
+- [Algoritma Nasıl Çalışır](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#algoritma-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-s%C3%B6zde-kod)
+- [Örnek Kod](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#%C3%B6rnek-kod)
+- [Örnek Algoritma İncelemesi](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#%C3%B6rnek-algoritma-i%CC%87ncelemesi)
+- [En İyi Durum ve En Kötü Durum](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#en-i%CC%87yi-durum-ve-en-k%C3%B6t%C3%BC-durum)
+- [Karmaşıklık Hesabı](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#karma%C5%9F%C4%B1kl%C4%B1k-hesab%C4%B1) 
+- [Kaynakça](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#kaynak%C3%A7a)
 ---
 
  ## Merge Sort Nedir?
 
 Varolan bir diziyi (sıralı-sırasız) belli bir işlem adımları uygulayarak diziyi sıralama işlemidir. Bir böl ve yönet algoritmasıdır. Özyineli bir algoritmadır. En alt dizi iki ögeli olana kadar yarılama işlemi devam eder. Sonra "Merge (Birleştirme)" işlemiyle altdiziler ikişer ikişer bölünüş sırasıyla sıralı olarak bir üst dizide birleştirilir. Süreç sonunda en üstte sıralı diziye ulaşılır.Sıralama yaparken değerleri tek tek kontrol ederek kıyaslama yapar ve sıraya koyar. Bağlı liste sıralamasında seçilebilecek en performanslı algoritma Merge Sort algoritmasıdır. Çünkü bağlı listelerin yapısı gereği mergesort bellekte fazladan sadece 1 birim yer tutar ve bağlı listelerin yavaş ve rastgele erişim performansı nedeniyle quicksort gibi diğer algoritmaların çalışma performansı düşer, Heap Sort gibi algoritmalar için ise imkansızdır.
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 
  ## Algoritma Nasıl Çalışır (Sözde Kod)
 
@@ -26,7 +26,7 @@ Varolan bir diziyi (sıralı-sırasız) belli bir işlem adımları uygulayarak 
 6. Tek liste halinde bir sıralı dizi elde edilmiş olunur. 
 Yukarıdaki gibi işlemler devam eder. 
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 ## Örnek Kod
 
 >code.py adlı dosyada çözüm sunulmuştur.
@@ -68,7 +68,7 @@ print("Sıralı Dizi  : \t\t",dizi)
 
 ![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/01-MergeSort/code.png?raw=true)
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 
  ## Örnek Algoritma İncelemesi
 
@@ -157,7 +157,7 @@ print("Sıralı Dizi  : \t\t",dizi)
 
 ![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/01-InsertionSort/Example.png?raw=true)
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 
 ## En İyi Durum ve En Kötü Durum 
 
@@ -165,7 +165,7 @@ print("Sıralı Dizi  : \t\t",dizi)
 
 **En kötü durum** ise dizinin **ters sıralı** olmasıdır. Karmaşıklığı O(n^2)
 
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 
 ## Karmaşıklık Hesabı
 
@@ -182,3 +182,7 @@ Sonuç n karedir. Bu durumda karmaşıklık: **O(nlogn)**
 * https://tr.wikipedia.org/wiki/Birle%C5%9Ftirmeli_s%C4%B1ralama#cite_note-1
 * https://www.geeksforgeeks.org/merge-sort/
 * https://bidb.itu.edu.tr/seyir-defteri/blog/2013/09/08/merge-sort-(bile%C5%9Ftirme-s%C4%B1ralamas%C4%B1)-algoritmas%C4%B1
+* https://www.programiz.com/dsa/merge-sort
+
+
+[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/01-InsertionSort#inserti%CC%87on-short-eklemeli-s%C4%B1ralama-algori%CC%87tmasi)
