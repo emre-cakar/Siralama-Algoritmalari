@@ -5,7 +5,6 @@
 - [Algoritma Nasıl Çalışır](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#algoritma-nas%C4%B1l-%C3%A7al%C4%B1%C5%9F%C4%B1r-s%C3%B6zde-kod)
 - [Örnek Kod](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#%C3%B6rnek-kod)
 - [Örnek Algoritma İncelemesi](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#%C3%B6rnek-algoritma-i%CC%87ncelemesi)
-- [En İyi Durum ve En Kötü Durum](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#en-i%CC%87yi-durum-ve-en-k%C3%B6t%C3%BC-durum)
 - [Karmaşıklık Hesabı](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#karma%C5%9F%C4%B1kl%C4%B1k-hesab%C4%B1) 
 - [Kaynakça](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#kaynak%C3%A7a)
 ---
@@ -66,7 +65,7 @@ print("Sıralı Dizi  : \t\t",dizi)
 
 Örnek Kod 1 Çıktısı:
 
-![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/02-MergeSort/code.png)
+![img](https://raw.githubusercontent.com/emre-cakar/Siralama-Algoritmalari/main/02-MergeSort/code.png)
 
 [İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 
@@ -155,17 +154,12 @@ print("Sıralı Dizi  : \t\t",dizi)
 29 34 45 68 89 90
  ``` 
 
-![img](https://github.com/emre-cakar/Siralama-Algoritmalari/blob/main/02-MergeSort/example.png)
+![img](https://raw.githubusercontent.com/emre-cakar/Siralama-Algoritmalari/main/02-MergeSort/example.png)
+
+> Resim programiz.com adresinden alınmıştır.
 
 [İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 
-## En İyi Durum ve En Kötü Durum 
-
-**En iyi durum** dizinin **sıralı** olmasıdır.  Karmaşıklığı O(n-1)
-
-**En kötü durum** ise dizinin **ters sıralı** olmasıdır. Karmaşıklığı O(n^2)
-
-[İçindekiler Bölüme Gitmek için Tıkla](https://github.com/emre-cakar/Siralama-Algoritmalari/tree/main/02-MergeSort#merge-short-birle%C5%9Ftirmeli-s%C4%B1ralama-algori%CC%87tmasi)
 
 ## Karmaşıklık Hesabı
 
